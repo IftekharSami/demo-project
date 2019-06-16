@@ -15,10 +15,11 @@
   position: absolute;
   content: "";
   left: 0;
-  bottom: 10px;
+  bottom: 8px;
   width: 100%;
-  background: url("../img/color-bar.gif");
-  height: 3px;
+  background: url("../img/color-bar.gif") repeat-x center center;
+  height: 10px;
+  background-size: contain;
 }
 
 #hero-area {
